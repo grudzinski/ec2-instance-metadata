@@ -1,0 +1,25 @@
+{
+  "name": "eim",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "command.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grudzinski/ec2-instance-metadata.git"
+  },
+  "author": "Roman Grudzinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grudzinski/ec2-instance-metadata/issues"
+  },
+  "homepage": "https://github.com/grudzinski/ec2-instance-metadata",
+  "dependencies": {
+    "debug": "^0.8.1",
+    "request": "^2.34.0",
+    "lodash": "^2.4.1"
+  }
+}
